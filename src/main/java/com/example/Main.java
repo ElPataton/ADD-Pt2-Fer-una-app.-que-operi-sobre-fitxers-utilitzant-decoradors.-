@@ -26,6 +26,7 @@ public class Main {
         while ((line = br.readLine()) != null){
                 
                 String invline = new StringBuilder(line).reverse().toString();
+                
                 bw.write(invline + "\n");
             }
         }
