@@ -2,3 +2,39 @@ Hola bona tarda
 Com estas
 a
 Hola mundo
+Requeriments
+
+    Llegir un fitxer de text (entrada.txt) amb BufferedReader.
+
+    Per cada línia llegida:
+
+        Invertir la línia (exemple: "Hola món" → "nóm aloH").
+
+        Aplicar xifrat Cèsar: cada caràcter es desplaça N posicions en Unicode.
+
+    Escriure el resultat a un fitxer de sortida (xifrat.txt) utilitzant BufferedWriter.
+
+    Crear un mètode per desxifrar el fitxer:
+
+        Llegir el fitxer xifrat.
+
+        Aplicar desplaçament invers de la clau.
+
+        Tornar a invertir cada línia per recuperar el missatge original.
+
+        Escriure el resultat a desxifrat.txt.
+
+    Opcional: permetre que l’usuari introdueixi la clau de xifrat/desxifrat per consola.
+
+    Mostrar per consola missatges de progrés i errors.
+
+Decoradors (wrappers)
+
+Què són?
+
+    Són classes que envolten un flux bàsic (FileReader, FileWriter) i afegeixen funcionalitats (més velocitat, lectura línia a línia, etc.).
+
+    Exemple típic del patró Decorator: no substitueix, sinó que amplia el comportament.
+
+Principals decoradors per text:
+Classe 	Funció 	Coment
